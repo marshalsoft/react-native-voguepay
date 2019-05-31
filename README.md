@@ -1,5 +1,5 @@
-## React Native Android Library Boilerplate
-This project serves as a boilerplate to create custom React Native native modules that can later be installed through NPM and easily be used in production.
+## React Native Android Library Voguepay
+This project serves as a Voguepay to create custom React Native native modules that can later be installed through NPM and easily be used in production.
 
 ## Getting started
 1. Clone the project
@@ -8,13 +8,13 @@ This project serves as a boilerplate to create custom React Native native module
     * Customize the Java package name (`com.domain.package`) as follows:
         1. Modify it in `android/src/main/AndroidManifest.xml`.
         2. Rename the folders starting from `android/src/main/java` to match your package name.
-        3. Adjust `package io.cmichel.boilerplate;` in the top of the `Module.java` and `Package.java` files in `android/src/main//java/package/path` to match it.
+        3. Adjust `package io.marshalsoft.voguepay;` in the top of the `Module.java` and `Package.java` files in `android/src/main//java/package/path` to match it.
     * Edit the name of your module in 
 
         ```java
         @Override
         public String getName() {
-            return "Boilerplate";
+            return "Voguepay";
         }
         ```
 
@@ -28,12 +28,12 @@ This project serves as a boilerplate to create custom React Native native module
 There are many ways to do this, here's the way I do it:
 
 1. Push it to **GitHub**.
-2. Do `npm install --save git+https://github.com/MrToph/react-native-android-library-boilerplate.git` in your main project.
+2. Do `npm install --save git+https://github.com/marshalsoft/react-native-voguepay.git` in your main project.
 3. Link the library:
     * Add the following to `android/settings.gradle`:
         ```
-        include ':react-native-android-library-boilerplate'
-        project(':react-native-android-library-boilerplate').projectDir = new File(settingsDir, '../node_modules/react-native-android-library-boilerplate/android')
+        include ':react-native-voguepay'
+        project(':react-native-voguepay').projectDir = new File(settingsDir, '../node_modules/react-native-voguepay/android')
         ```
 
     * Add the following to `android/app/build.gradle`:
@@ -42,14 +42,14 @@ There are many ways to do this, here's the way I do it:
 
         dependencies {
             ...
-            compile project(':react-native-android-library-boilerplate')
+            compile project(':react-native-voguepay')
         }
         ```
     * Add the following to `android/app/src/main/java/**/MainApplication.java`:
         ```java
         package com.motivation;
 
-        import io.cmichel.boilerplate.Package;  // add this for react-native-android-library-boilerplate
+        import io.marshalsoft.voguepay.Package;  // add this for react-native-android-library-Voguepay
 
         public class MainApplication extends Application implements ReactApplication {
 
@@ -57,7 +57,7 @@ There are many ways to do this, here's the way I do it:
             protected List<ReactPackage> getPackages() {
                 return Arrays.<ReactPackage>asList(
                     new MainReactPackage(),
-                    new Package()     // add this for react-native-android-library-boilerplate
+                    new Package()     // add this for react-native-android-library-Voguepay
                 );
             }
         }
@@ -65,7 +65,7 @@ There are many ways to do this, here's the way I do it:
 4. Simply `import/require` it by the name defined in your library's `package.json`:
 
     ```javascript
-    import Boilerplate from 'react-native-android-library-boilerplate'
-    Boilerplate.show('Boilerplate runs fine', Boilerplate.LONG)
+    import Voguepay from 'react-native-voguepay'
+    Voguepay.show('Voguepay runs fine', Voguepay.LONG)
     ```
 5. You can test and develop your library by importing the `node_modules` library into **Android Studio** if you don't want to install it from _git_ all the time.
