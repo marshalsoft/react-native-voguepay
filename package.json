@@ -1,0 +1,33 @@
+{
+  "name": "react-native-voguepay",
+  "version": "0.0.1",
+  "author": "Engr. Marshall Ekene http://marshalsoft.pro",
+  "private": false,
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marshalsoft/react-native-voguepay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marshalsoft/react-native-voguepay/issues"
+  },
+  "homepage": "https://github.com/marshalsoft/react-native-voguepay",
+  "keywords": [
+    "react-native",
+    "Voguepay",
+    "Card payment",
+    "Mobile payment",
+    "Payment gateway",
+    "Best Payment gateway",
+    "Best Payment mobile sultuion",
+    "android",
+    "library"
+  ],
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.38.0"
+  }
+}
