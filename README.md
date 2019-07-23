@@ -74,7 +74,7 @@ The api accepts parameters as a GET request. Below is a sample api call
 //voguepay.com/?v_transaction_id=11111&amp;type=xml&amp;demo=true
 ```
 Sample JSON Response
-<div >
+
 ```
 {
     "merchant_id":"qa331322179752",
@@ -93,10 +93,9 @@ Sample JSON Response
     "cur":"USD"
 }
 ```
-</div>
 **Explanation of Responses**
-<div >
 
+ <div class="table-responsive">
                             <table class="table table-striped table-bordered table-hover">
                                 <tbody>
                                     <tr>
@@ -161,10 +160,9 @@ Sample JSON Response
                                     </tr>
                                 </tbody>
                             </table>
-</div>
-for details check 
-* [voguepay api documentations](https://voguepay.com/documentation#section-two)
+                            </div>
 <b/>
+* for details check [voguepay api documentations](https://voguepay.com/documentation#section-two)
 <b/>
  **License**
  * This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/marshalsoft/react-native-voguepay/blob/master/LICENSE) file for details
