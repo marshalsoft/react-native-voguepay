@@ -1,7 +1,7 @@
 {
   "name": "react-native-voguepay",
   "version": "0.0.1",
-  "author": "Engr. Marshall Ekene http://marshalsoft.pro",
+  "author": "Engr. Marshall Ekene <http://www.marshalsoft.pro>",
   "private": false,
   "license": "Unlicense",
   "repository": {
@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/marshalsoft/react-native-voguepay/issues"
   },
-  "homepage": "https://github.com/marshalsoft/react-native-voguepay",
+  "homepage": "https://www/marshalsoft.pro",
   "keywords": [
     "react-native",
     "Voguepay",
