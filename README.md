@@ -43,10 +43,10 @@ There are many ways to do this, here's the way I do it:
    * response:function
    
  **License**
- This project is licensed under the MIT License - see the LICENSE.md file for details
+ This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/marshalsoft/react-native-voguepay/blob/master/LICENSE) file for details
  
  **Keywords**
- Javascript, github, react-native, Open Source, payments, Voguepay,payment,Gateway,react-native-voguepay
+ * Javascript,github,react-native,Open Source,payments,Voguepay,payment,Gateway,react-native-voguepay
  
  **Author**
  * Name: Engr. Marshall Ekene
