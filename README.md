@@ -1,71 +1,55 @@
-## React Native Android Library Voguepay
-This project serves as a Voguepay to create custom React Native native modules that can later be installed through NPM and easily be used in production.
+**Screenshots**
 
-## Getting started
-1. Clone the project
-2. Customize the project name by doing the following:
-    * Edit `author` and `name` in `package.json`
-    * Customize the Java package name (`com.domain.package`) as follows:
-        1. Modify it in `android/src/main/AndroidManifest.xml`.
-        2. Rename the folders starting from `android/src/main/java` to match your package name.
-        3. Adjust `package io.marshalsoft.voguepay;` in the top of the `Module.java` and `Package.java` files in `android/src/main//java/package/path` to match it.
-    * Edit the name of your module in 
 
-        ```java
-        @Override
-        public String getName() {
-            return "Voguepay";
-        }
-        ```
+**React Native Android Library Voguepay**
+This React library provides a wrapper to add VoguePay Payment to your React application.
 
-        and adjust it in `index.android.js`
-3. Modify/Build the Project in Android Studio
-    * Start `Android Studio` and select `File -> New -> Import Project` and select the **android** folder of this package.
-    * If you get a `Plugin with id 'android-library' not found` Error, install `android support repository`.
-    * If you get asked to upgrade _gradle_ to a new version, you can skip it.
-
-## Installing it as a library in your main project
+**Get Started**
 There are many ways to do this, here's the way I do it:
 
-1. Push it to **GitHub**.
-2. Do `npm install --save git+https://github.com/marshalsoft/react-native-voguepay.git` in your main project.
-3. Link the library:
-    * Add the following to `android/settings.gradle`:
-        ```
-        include ':react-native-voguepay'
-        project(':react-native-voguepay').projectDir = new File(settingsDir, '../node_modules/react-native-voguepay/android')
-        ```
+**Install**
+*Do `npm install --save git+https://github.com/marshalsoft/react-native-voguepay.git` in your main project.
 
-    * Add the following to `android/app/build.gradle`:
-        ```xml
-        ...
-
-        dependencies {
-            ...
-            compile project(':react-native-voguepay')
-        }
-        ```
-    * Add the following to `android/app/src/main/java/**/MainApplication.java`:
-        ```java
-        package com.motivation;
-
-        import io.marshalsoft.voguepay.Package;  // add this for react-native-android-library-Voguepay
-
-        public class MainApplication extends Application implements ReactApplication {
-
-            @Override
-            protected List<ReactPackage> getPackages() {
-                return Arrays.<ReactPackage>asList(
-                    new MainReactPackage(),
-                    new Package()     // add this for react-native-android-library-Voguepay
-                );
-            }
-        }
-        ```
-4. Simply `import/require` it by the name defined in your library's `package.json`:
+**2. Simply `import/require` it by the name library's (react-native-voguepay)`:**
 
     ```javascript
     import Voguepay from 'react-native-voguepay'
-    Voguepay.show('Voguepay runs fine', Voguepay.LONG)
     ```
-5. You can test and develop your library by importing the `node_modules` library into **Android Studio** if you don't want to install it from _git_ all the time.
+**5. Include as a component.**
+```
+   <VoguePay 
+   params={{
+    amount:2345,
+    currency:"NGN",
+    success_url:"http://www.example.com/success.php",
+    fail_url:"http://www.example.com/fail.php",
+    notify_url:"http://www.example.com/notify.php",
+    memo:"Payment for book",
+    merchant_id:"xxxx-xxxxxxx",
+    merchant_ref:"xxxxxxx"
+   }} 
+   
+   response={(d:Object)=>{ 
+    alert(JSON.stringify(d))
+   }} /> 
+   ```
+ 6. Make sure the following properties ara provided
+   * params:Object
+   * response:function
+   
+ **License**
+ This project is licensed under the MIT License - see the LICENSE.md file for details
+ 
+ **Keywords**
+ Javascript, github, react-native, Open Source, payments, Voguepay,payment,Gateway,react-native-voguepay
+ 
+ **Author**
+ Engr. Marshall Ekene
+ *[Email](mailto://admin@marshalsoft.pro)
+ *[Website](https:// www.marshalsoft.pro)
+ *[facebook](https://www.facebook.com/marshalsoft)
+ *[twitter](https://twitter.com/Marshallekene)
+ *[Youtube](https://www.youtube.com/c/MarshallEkene)
+
+ **issues**
+ *[report issues](https://github.com/marshalsoft/react-native-voguepay/issues)
