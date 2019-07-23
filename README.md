@@ -93,9 +93,9 @@ Sample JSON Response
     "cur":"USD"
 }
 ```
+
 **Explanation of Responses**
 
- <div class="table-responsive">
                             <table class="table table-striped table-bordered table-hover">
                                 <tbody>
                                     <tr>
@@ -160,10 +160,9 @@ Sample JSON Response
                                     </tr>
                                 </tbody>
                             </table>
-                            </div>
-<b/>
+
 for details check 
-[**voguepay api documentations**](https://voguepay.com/documentation#section-two)
+* [voguepay api documentations](https://voguepay.com/documentation#section-two)
 <b/>
 <b/>
  **License**
