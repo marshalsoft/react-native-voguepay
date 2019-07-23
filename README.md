@@ -72,6 +72,7 @@ The api accepts parameters as a GET request. Below is a sample api call
 <p>
 For demo transactions, use:
  </p>
+ 
 ```
 //voguepay.com/?v_transaction_id=11111&amp;type=xml&amp;demo=true
 ```
@@ -170,10 +171,6 @@ Sample JSON Response
 <p>
 * for details check [voguepay api documentations](https://voguepay.com/documentation#section-two)
 </p>
-### License
- * This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/marshalsoft/react-native-voguepay/blob/master/LICENSE) file for details
-
- 31 9 - 10 
  
  **Keywords**
  * Javascript,github,react-native,Open Source,payments,Voguepay,payment,Gateway,react-native-voguepay
@@ -189,3 +186,6 @@ Sample JSON Response
 
  **issues**
  * [report issues](https://github.com/marshalsoft/react-native-voguepay/issues)
+ 
+ **License**
+ * This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/marshalsoft/react-native-voguepay/blob/master/LICENSE) file for details
