@@ -162,7 +162,9 @@ Sample JSON Response
                             </table>
                             </div>
 <b/>
-for details check **[voguepay api documentations](https://voguepay.com/documentation#section-two)**
+for details check 
+[**voguepay api documentations**](https://voguepay.com/documentation#section-two)
+<b/>
 <b/>
  **License**
  * This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/marshalsoft/react-native-voguepay/blob/master/LICENSE) file for details
