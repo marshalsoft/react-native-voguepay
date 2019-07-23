@@ -13,15 +13,20 @@ This React library provides a wrapper to add VoguePay Payment to your React appl
 There are many ways to do this, here's the way I do it:
 
 **Install**
-*Do `npm install --save git+https://github.com/marshalsoft/react-native-voguepay.git` in your main project.
+* Do `npm install --save git+https://github.com/marshalsoft/react-native-voguepay.git` 
+* Do `npm install --save react-native-voguepay`
+<br/>
+ in your main project.
 
 **2. Simply `import/require` it by the name library's (react-native-voguepay)`:**
 
     ```javascript
-    import Voguepay from 'react-native-voguepay'
+    import VoguePay from 'react-native-voguepay'
     ```
 **5. Include as a component.**
 ```
+import VoguePay from 'react-native-voguepay';
+
    <VoguePay 
    params={{
     amount:2345,
@@ -43,7 +48,7 @@ There are many ways to do this, here's the way I do it:
    * response:function
    
  **License**
- This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/marshalsoft/react-native-voguepay/blob/master/LICENSE) file for details
+ * This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/marshalsoft/react-native-voguepay/blob/master/LICENSE) file for details
  
  **Keywords**
  * Javascript,github,react-native,Open Source,payments,Voguepay,payment,Gateway,react-native-voguepay
