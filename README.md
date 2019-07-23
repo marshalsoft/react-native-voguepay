@@ -49,86 +49,32 @@ import VoguePay from 'react-native-voguepay';
    * response:function
    
  **Notification/Order processing API**
-<p>VoguePay sends a transaction id to the notification URL provided in your account for every transaction on that account.</p>
-<p> The transaction ID is sent as a HTTP POST variable (transaction_id) e.g:<br>
-                            If your notification URL is //mydomain.com/notify_url.php&type=json<br>
-                            then notification will be sent to :<br> </p>
+VoguePay sends a transaction id to the notification URL provided in your account for every transaction on that account.
+<b/>
+The transaction ID is sent as a HTTP POST variable (transaction_id) e.g:<br>
+If your notification URL is //mydomain.com/notify_url.php&type=json<br>
+then notification will be sent to :<br> 
 
         ```
         //mydomain.com/notify_url.php&type=json
         ```
-<p>You can retrieve it as a POST variable e.g $_POST['transaction_id'] for PHP.</p>
-<p>You can confirm the status and details of a transaction anytime using our REST(full) API below:</p>
+You can retrieve it as a POST variable e.g $_POST['transaction_id'] for PHP.<b/>
+You can confirm the status and details of a transaction anytime using our REST(full) API below:
+
 ```
 //voguepay.com/
 ```
-<p>The api accepts parameters as a GET request. Below is a sample api call.</p>
+The api accepts parameters as a GET request. Below is a sample api call
+
 ```
 //voguepay.com/?v_transaction_id=11111&amp;type=json
 ```
- <p>For demo transactions, use:</p>
+ For demo transactions, use:
 ```
 //voguepay.com/?v_transaction_id=11111&amp;type=xml&amp;demo=true
 ```
+Sample JSON Response
 
-                            <table class="table table-striped table-bordered table-hover">
-                                <tbody>
-                                    <tr>
-                                        <th>Variable</th>
-                                        <th>Acceptable Values</th>
-                                        <th>Default</th>
-                                        <th>Details</th>
-                                    </tr>
-                                    <tr>
-                                        <td>v_transaction_id</td>
-                                        <td>transaction id</td>
-                                        <td></td>
-                                        <td>The transaction id of the transaction to be queried. See sample code below on how to get the transaction id.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>type</td>
-                                        <td>xml, json</td>
-                                        <td>xml</td>
-                                        <td>Format for the expected data</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            </div>
-                            <p>Sample XML Response</p>
-```
-&lt;voguepay&gt;
-
-&lt;merchant_id&gt;qa331322179752&lt;/merchant_id&gt;
-
-&lt;transaction_id&gt;11111&lt;/transaction_id&gt;
-
-&lt;email&gt;mii@mydomain.com&lt;/email&gt;
-
-&lt;total&gt;500&lt;/total&gt;
-
-&lt;total_paid_by_buyer&gt;507.61&lt;/total_paid_by_buyer&gt;
-
-&lt;total_credited_to_merchant&gt;495.00&lt;/total_credited_to_merchant&gt;
-
-&lt;extra_charges_by_merchant&gt;0.00&lt;/extra_charges_by_merchant&gt;
-
-&lt;merchant_ref&gt;2f093e72&lt;/merchant_ref&gt;
-
-&lt;memo&gt;1000 SMS units at &amp;#8358;1.20 each on www.bulksms.com&lt;/memo&gt;
-
-&lt;status&gt;Approved&lt;/status&gt;
-
-&lt;date&gt;2012-01-09 18:56:23&lt;/date&gt;
-
-&lt;referrer&gt;http://www.afrisoft.net/viewinvoice.php?id=2012&lt;/referrer&gt;
-
-&lt;fund_maturity&gt;2012-01-11&lt;/fund_maturity&gt;
-
-&lt;cur&gt;USD&lt;/cur&gt;
-
-&lt;/voguepay&gt;
-```
-<p>Sample JSON Response</p>
 ```
 {
     "merchant_id":"qa331322179752",
@@ -139,7 +85,7 @@ import VoguePay from 'react-native-voguepay';
     "total_credited_to_merchant":"495.00",
     "extra_charges_by_merchant":"0.00",
     "merchant_ref":"2f093e72",
-    "memo":"1000 SMS units at &amp;amp;#8358;1.20 each on www.smsmy.com",
+    "memo":"1000 SMS units at &amp;amp;#8358;1.20 each on www.mysms.com",
     "status":"Approved",
     "date":"2012-01-09 18:56:23",
     "referrer":"http://www.afrisoft.net/viewinvoice.php?id=2012",
@@ -147,8 +93,9 @@ import VoguePay from 'react-native-voguepay';
     "cur":"USD"
 }
 ```
-<p>Explanation of Responses</p>
-                            <div class="table-responsive">
+**Explanation of Responses**
+
+ <div class="table-responsive">
                             <table class="table table-striped table-bordered table-hover">
                                 <tbody>
                                     <tr>
@@ -214,6 +161,7 @@ import VoguePay from 'react-native-voguepay';
                                 </tbody>
                             </table>
                             </div>
+<b/>
 for details check **[voguepay api documentations](https://voguepay.com/documentation#section-two)**
 <b/>
  **License**
