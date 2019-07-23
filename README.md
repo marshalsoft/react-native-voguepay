@@ -1,8 +1,10 @@
 **Screenshots**
+
 <div >
-<img src="Screenshot_20190723-111623.jpg" width="300" alt="accessibility text">
+<img src="Screenshot_20190723-111623.jpg" width="300" alt=" screen 1">
+<img src="Screenshot_20190723-111640.jpg" width="300" alt="screen 2">
+<img src="Screenshot_20190723-111651.jpg" width="300" alt="screen 3">
 </div>
-![check out screen 1](Screenshot_20190723-111623.jpg)
 
 **React Native Android Library Voguepay**
 This React library provides a wrapper to add VoguePay Payment to your React application.
