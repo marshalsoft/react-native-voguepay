@@ -45,11 +45,11 @@ There are many ways to do this, here's the way I do it:
  
  **Author**
  Engr. Marshall Ekene
- *[Email](mailto://admin@marshalsoft.pro)
- *[Website](https:// www.marshalsoft.pro)
- *[facebook](https://www.facebook.com/marshalsoft)
- *[twitter](https://twitter.com/Marshallekene)
- *[Youtube](https://www.youtube.com/c/MarshallEkene)
+ * [Email](mailto://admin@marshalsoft.pro)
+ * [Website](https:// www.marshalsoft.pro)
+ * [facebook](https://www.facebook.com/marshalsoft)
+ * [twitter](https://twitter.com/Marshallekene)
+ * [Youtube](https://www.youtube.com/c/MarshallEkene)
 
  **issues**
- *[report issues](https://github.com/marshalsoft/react-native-voguepay/issues)
+ * [report issues](https://github.com/marshalsoft/react-native-voguepay/issues)
