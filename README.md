@@ -74,7 +74,7 @@ The api accepts parameters as a GET request. Below is a sample api call
 //voguepay.com/?v_transaction_id=11111&amp;type=xml&amp;demo=true
 ```
 Sample JSON Response
-
+<div >
 ```
 {
     "merchant_id":"qa331322179752",
@@ -93,8 +93,9 @@ Sample JSON Response
     "cur":"USD"
 }
 ```
-
+</div>
 **Explanation of Responses**
+<div >
 
                             <table class="table table-striped table-bordered table-hover">
                                 <tbody>
@@ -160,7 +161,7 @@ Sample JSON Response
                                     </tr>
                                 </tbody>
                             </table>
-
+</div>
 for details check 
 * [voguepay api documentations](https://voguepay.com/documentation#section-two)
 <b/>
