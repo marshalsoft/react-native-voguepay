@@ -1,9 +1,9 @@
 **Screenshots**
 
 <div >
-<img src="Screenshot_20190723-111623.jpg" width="300" alt=" screen 1">
-<img src="Screenshot_20190723-111640.jpg" width="300" alt="screen 2">
-<img src="Screenshot_20190723-111651.jpg" width="300" alt="screen 3">
+<img src="Screenshot_20190723-111623.jpg" width="250" alt=" screen 1" style="padding:10px">
+<img src="Screenshot_20190723-111640.jpg" width="250" alt="screen 2"  style="padding:10px">
+<img src="Screenshot_20190723-111651.jpg" width="250" alt="screen 3"  style="padding:10px">
 </div>
 
 **React Native Android Library Voguepay**
@@ -49,7 +49,7 @@ There are many ways to do this, here's the way I do it:
  Javascript, github, react-native, Open Source, payments, Voguepay,payment,Gateway,react-native-voguepay
  
  **Author**
- Engr. Marshall Ekene
+ * Name: Engr. Marshall Ekene
  * [Email](mailto://admin@marshalsoft.pro)
  * [Website](https:// www.marshalsoft.pro)
  * [facebook](https://www.facebook.com/marshalsoft)
