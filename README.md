@@ -39,9 +39,9 @@ import VoguePay from 'react-native-voguepay';
     merchant_ref:"xxxxxxx" // custom generating transaction reference by user
    }} 
    
-   response={(d:Object)=>{ 
+   response={(response:Object)=>{ 
    // response = {success_url:"",fail_url:"",notify_url:"",reference_number:""}
-    alert(JSON.stringify(d))
+    console.log(response);
    }} /> 
    ```
  Make sure the following properties ara provided
@@ -179,7 +179,6 @@ Sample JSON Response
  * Name: Engr. Marshall Ekene
  * [Email](mailto://admin@marshalsoft.pro)
  * [Website](https:// www.marshalsoft.pro)
- * [Website](https:// www.marshalsoft.net)
  * [facebook](https://www.facebook.com/marshalsoft)
  * [twitter](https://twitter.com/Marshallekene)
  * [Youtube](https://www.youtube.com/c/MarshallEkene)
