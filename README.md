@@ -176,9 +176,10 @@ Sample JSON Response
  * Javascript,github,react-native,Open Source,payments,Voguepay,payment,Gateway,react-native-voguepay
  
  **Author**
- * Name: Engr. Marshall Ekene
+ * Name: Marshall Ekene(Engr.)
  * [Email](mailto://admin@marshalsoft.pro)
- * [Website](https://www.marshalsoft.pro)
+ * [Website 1](https://www.marshalsoft.pro)
+ * [Website 2](https://www.marshalsoft.net)
  * [facebook](https://www.facebook.com/marshalsoft)
  * [twitter](https://twitter.com/Marshallekene)
  * [Youtube](https://www.youtube.com/c/MarshallEkene)
