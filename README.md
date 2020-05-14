@@ -178,7 +178,7 @@ Sample JSON Response
  **Author**
  * Name: Engr. Marshall Ekene
  * [Email](mailto://admin@marshalsoft.pro)
- * [Website](https:// www.marshalsoft.pro)
+ * [Website](https://www.marshalsoft.pro)
  * [facebook](https://www.facebook.com/marshalsoft)
  * [twitter](https://twitter.com/Marshallekene)
  * [Youtube](https://www.youtube.com/c/MarshallEkene)
